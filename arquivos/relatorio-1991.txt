@@ -1,92 +1,63 @@
 
-2022-07-28T21:48:04.825205500Z24/02
+14:53:03 -  >> 24/02
 
-2022-07-28T21:48:08.818722100ZPlantacao 4 - Cordovil - 2 - 0
-2022-07-28T21:48:12.811018600ZPlantacao 1 - Galega - 4 - 0
-2022-07-28T21:48:16.827059600ZPlantacao 2 - Galega - 6 - 0
-2022-07-28T21:48:18.820832ZPlantacao 3 - Cordovil - 7 - 1
-2022-07-28T21:48:19.813686700ZPlantacao 5 - Picual - 7 - 0
-2022-07-28T21:48:22.826515200ZPlantacao 4 - Cordovil - 3 - 4
-2022-07-28T21:48:22.842434400ZPlantacao 4 - Cordovil - 6 - 4
-2022-07-28T21:48:24.826679400ZPlantacao 1 - Galega - 6 - 5
-2022-07-28T21:48:27.843527ZPlantacao 3 - Cordovil - 5 - 5
-2022-07-28T21:48:27.845164100ZPlantacao 5 - Picual - 5 - 5
-2022-07-28T21:48:27.849494400ZPlantacao 1 - Galega - 3 - 6
-2022-07-28T21:48:29.867137900ZPlantacao 2 - Galega - 2 - 5
-2022-07-28T21:48:33.855000100ZPlantacao 5 - Picual - 6 - 5
-2022-07-28T21:48:34.865253100ZPlantacao 2 - Galega - 7 - 7
-2022-07-28T21:48:36.877442100ZPlantacao 4 - Cordovil - 7 - 8
-2022-07-28T21:48:38.889161700ZPlantacao 2 - Galega - 4 - 9
-2022-07-28T21:48:40.864905400ZPlantacao 3 - Cordovil - 7 - 10
-2022-07-28T21:48:41.893947300ZPlantacao 2 - Galega - 3 - 11
-2022-07-28T21:48:43.898896800ZPlantacao 1 - Galega - 7 - 11
-2022-07-28T21:48:45.875171800ZPlantacao 4 - Cordovil - 5 - 11
-2022-07-28T21:48:46.904253200ZPlantacao 5 - Picual - 5 - 11
-2022-07-28T21:48:47.888934800ZPlantacao 5 - Picual - 2 - 11
-2022-07-28T21:48:48.907698300ZPlantacao 1 - Galega - 5 - 11
-2022-07-28T21:48:50.892837100ZPlantacao 4 - Cordovil - 3 - 11
-2022-07-28T21:48:53.919123700ZPlantacao 3 - Cordovil - 7 - 11
-2022-07-28T21:48:55.909801800ZPlantacao 1 - Galega - 5 - 12
-2022-07-28T21:48:55.910848800ZPlantacao 2 - Galega - 7 - 11
-2022-07-28T21:48:57.926752400ZPlantacao 1 - Galega - 2 - 11
-2022-07-28T21:48:58.932429700ZPlantacao 5 - Picual - 5 - 11
-2022-07-28T21:49:00.934702300ZPlantacao 3 - Cordovil - 5 - 10
-2022-07-28T21:49:03.942847300ZPlantacao 5 - Picual - 5 - 11
-2022-07-28T21:49:03.945780300ZPlantacao 1 - Galega - 3 - 12
-2022-07-28T21:49:04.945302ZPlantacao 4 - Cordovil - 7 - 11
-2022-07-28T21:49:05.958957400ZPlantacao 4 - Cordovil - 2 - 10
-2022-07-28T21:49:10.959518300ZPlantacao 3 - Cordovil - 6 - 12
-2022-07-28T21:49:10.960938700ZPlantacao 2 - Galega - 7 - 10
-2022-07-28T21:49:10.976312500ZPlantacao 5 - Picual - 5 - 11
-2022-07-28T21:49:12.960581300ZPlantacao 2 - Galega - 2 - 11
-2022-07-28T21:49:13.991913300ZPlantacao 3 - Cordovil - 3 - 12
-2022-07-28T21:49:17.968568400ZPlantacao 4 - Cordovil - 5 - 11
-2022-07-28T21:49:17.970565300ZPlantacao 1 - Galega - 7 - 11
-2022-07-28T21:49:19.009801ZPlantacao 5 - Picual - 5 - 12
-2022-07-28T21:49:23.979586700ZPlantacao 2 - Galega - 6 - 11
-2022-07-28T21:49:24.981990900ZPlantacao 1 - Galega - 7 - 12
-2022-07-28T21:49:26.014162500ZPlantacao 3 - Cordovil - 7 - 12
-2022-07-28T21:49:29.992882900ZPlantacao 5 - Picual - 6 - 11
-2022-07-28T21:49:30.994330500ZPlantacao 4 - Cordovil - 6 - 11
-2022-07-28T21:49:31.025503600ZPlantacao 2 - Galega - 5 - 11
-2022-07-28T21:49:35.003927300ZPlantacao 1 - Galega - 5 - 11
-2022-07-28T21:49:37.008837ZPlantacao 3 - Cordovil - 6 - 11
-2022-07-28T21:49:37.040137700ZPlantacao 5 - Picual - 6 - 12
-2022-07-28T21:49:40.008764500ZPlantacao 2 - Galega - 5 - 11
-2022-07-28T21:49:43.022665200ZPlantacao 4 - Cordovil - 6 - 12
-2022-07-28T21:49:43.054349ZPlantacao 1 - Galega - 6 - 11
-2022-07-28T21:49:45.029480300ZPlantacao 5 - Picual - 5 - 11
-2022-07-28T21:49:48.066090800ZPlantacao 4 - Cordovil - 5 - 11
-2022-07-28T21:49:49.037399200ZPlantacao 3 - Cordovil - 6 - 11
-2022-07-28T21:49:50.072476600ZPlantacao 5 - Picual - 2 - 11
-2022-07-28T21:49:52.042032500ZPlantacao 2 - Galega - 7 - 11
-2022-07-28T21:49:55.054232100ZPlantacao 1 - Galega - 6 - 11
-2022-07-28T21:49:55.084328900ZPlantacao 4 - Cordovil - 5 - 11
-2022-07-28T21:49:58.058684600ZPlantacao 2 - Galega - 3 - 11
-2022-07-28T21:49:59.058879800ZPlantacao 3 - Cordovil - 7 - 11
-2022-07-28T21:49:59.090742500ZPlantacao 5 - Picual - 4 - 11
-2022-07-28T21:50:01.068153400ZPlantacao 3 - Cordovil - 2 - 11
-2022-07-28T21:50:03.073239700ZPlantacao 1 - Galega - 5 - 11
-2022-07-28T21:50:04.094269600ZPlantacao 4 - Cordovil - 5 - 11
-2022-07-28T21:50:06.075708500ZPlantacao 2 - Galega - 5 - 11
-2022-07-28T21:50:06.077308ZPlantacao 3 - Cordovil - 3 - 11
-2022-07-28T21:50:08.098909200ZPlantacao 1 - Galega - 4 - 12
-2022-07-28T21:50:10.108061400ZPlantacao 3 - Cordovil - 2 - 11
-2022-07-28T21:50:11.089241600ZPlantacao 4 - Cordovil - 5 - 10
-2022-07-28T21:50:12.122620100ZPlantacao 1 - Galega - 2 - 11
-2022-07-28T21:50:13.092848500ZPlantacao 5 - Picual - 7 - 10
-2022-07-28T21:50:14.127770200ZPlantacao 5 - Picual - 2 - 11
-2022-07-28T21:50:15.099862900ZPlantacao 4 - Cordovil - 2 - 10
-2022-07-28T21:50:16.105216ZPlantacao 2 - Galega - 5 - 11
-2022-07-28T21:50:17.137122800ZPlantacao 3 - Cordovil - 3 - 9
-2022-07-28T21:50:19.108978800ZPlantacao 1 - Galega - 4 - 8
-2022-07-28T21:50:19.112304400ZPlantacao 2 - Galega - 3 - 7
-2022-07-28T21:50:21.124919900ZPlantacao 1 - Galega - 2 - 4
-2022-07-28T21:50:22.124532700ZPlantacao 4 - Cordovil - 3 - 5
-2022-07-28T21:50:22.139830700ZPlantacao 5 - Picual - 5 - 6
-2022-07-28T21:50:24.137554500ZPlantacao 3 - Cordovil - 3 - 3
-2022-07-28T21:50:24.153661500ZPlantacao 4 - Cordovil - 2 - 1
-2022-07-28T21:50:24.155530500Z
-2022-07-28T21:50:26.127115ZPlantacao 2 - Galega - 4 - 2
-2022-07-28T21:50:26.128757400Z
-2022-07-28T21:50:29.151106700ZPlantacao 5 - Picual - 5 - 0
+14:53:13 -  >> Plantacao 2 - Galega - 3 - 2
+14:53:15 -  >> Plantacao 5 - Picual - 5 - 2
+14:53:16 -  >> Plantacao 4 - Cordovil - 5 - 3
+14:53:19 -  >> Plantacao 1 - Galega - 6 - 4
+14:53:20 -  >> Plantacao 5 - Picual - 4 - 4
+14:53:21 -  >> Plantacao 1 - Galega - 2 - 7
+14:53:23 -  >> Plantacao 3 - Cordovil - 8 - 3
+14:53:26 -  >> Plantacao 2 - Galega - 6 - 6
+14:53:27 -  >> Plantacao 2 - Galega - 4 - 7
+14:53:29 -  >> Plantacao 4 - Cordovil - 8 - 7
+14:53:32 -  >> Plantacao 5 - Picual - 6 - 9
+14:53:34 -  >> Plantacao 3 - Cordovil - 7 - 9
+14:53:34 -  >> Plantacao 2 - Galega - 2 - 13
+14:53:36 -  >> Plantacao 1 - Galega - 7 - 9
+14:53:37 -  >> Plantacao 5 - Picual - 3 - 13
+14:53:39 -  >> Plantacao 4 - Cordovil - 5 - 12
+14:53:39 -  >> Plantacao 5 - Picual - 3 - 12
+14:53:41 -  >> Plantacao 2 - Galega - 4 - 11
+14:53:46 -  >> Plantacao 3 - Cordovil - 7 - 12
+14:53:46 -  >> Plantacao 1 - Galega - 7 - 11
+14:53:47 -  >> Plantacao 4 - Cordovil - 6 - 13
+14:53:49 -  >> Plantacao 3 - Cordovil - 3 - 16
+14:53:50 -  >> Plantacao 4 - Cordovil - 4 - 16
+14:53:54 -  >> Plantacao 3 - Cordovil - 4 - 14
+14:53:55 -  >> Plantacao 5 - Picual - 8 - 15
+14:53:57 -  >> Plantacao 2 - Galega - 8 - 15
+14:53:58 -  >> Plantacao 2 - Galega - 3 - 18
+14:54:00 -  >> Plantacao 3 - Cordovil - 2 - 20
+14:54:01 -  >> Plantacao 1 - Galega - 7 - 19
+14:54:01 -  >> Plantacao 3 - Cordovil - 4 - 18
+14:54:08 -  >> Plantacao 4 - Cordovil - 8 - 21
+14:54:08 -  >> Plantacao 2 - Galega - 7 - 22
+14:54:09 -  >> Plantacao 5 - Picual - 8 - 22
+14:54:11 -  >> Plantacao 1 - Galega - 3 - 25
+14:54:16 -  >> Plantacao 4 - Cordovil - 7 - 24
+14:54:16 -  >> Plantacao 1 - Galega - 8 - 26
+14:54:18 -  >> Plantacao 1 - Galega - 2 - 22
+14:54:19 -  >> Plantacao 3 - Cordovil - 8 - 23
+14:54:24 -  >> Plantacao 5 - Picual - 8 - 21
+14:54:24 -  >> Plantacao 2 - Galega - 6 - 20
+14:54:24 -  >> Plantacao 4 - Cordovil - 5 - 19
+14:54:28 -  >> Plantacao 5 - Picual - 4 - 17
+14:54:29 -  >> Plantacao 2 - Galega - 5 - 17
+14:54:31 -  >> Plantacao 3 - Cordovil - 7 - 16
+14:54:32 -  >> Plantacao 4 - Cordovil - 3 - 14
+14:54:33 -  >> Plantacao 4 - Cordovil - 2 - 13
+14:54:35 -  >> Plantacao 1 - Galega - 7 - 15
+14:54:38 -  >> Plantacao 5 - Picual - 6 - 12
+14:54:38 -  >> Plantacao 3 - Cordovil - 5 - 11
+14:54:40 -  >> Plantacao 3 - Cordovil - 2 - 8
+14:54:41 -  >> Plantacao 5 - Picual - 3 - 9
+14:54:42 -  >> Plantacao 2 - Galega - 7 - 10
+14:54:44 -  >> Plantacao 5 - Picual - 2 - 5
+14:54:46 -  >> Plantacao 4 - Cordovil - 5 - 6
+14:54:46 -  >> Plantacao 1 - Galega - 2 - 4
+14:54:47 -  >> Plantacao 1 - Galega - 7 - 7
+14:54:48 -  >> Plantacao 1 - Galega - 2 - 3
+14:54:52 -  >> Plantacao 3 - Cordovil - 5 - 1
+14:54:52 -  >> Plantacao 2 - Galega - 6 - 2
+14:54:54 -  >> Plantacao 4 - Cordovil - 6 - 0

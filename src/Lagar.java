@@ -2,14 +2,15 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.DelayQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Lagar implements Runnable {
-    BlockingQueue<Map<String, String>> filaLagar;
-    LinkedBlockingQueue<String> filaMensagens;
-    Instant inicio;
+    private DelayQueue<Caminhão> filaLagar;
+    private LinkedBlockingQueue<String> filaMensagens;
+    private Instant inicio;
 
-    public Lagar(BlockingQueue<Map<String, String>> filaLagar, LinkedBlockingQueue<String> filaMensagens) {
+    public Lagar(DelayQueue<Caminhão> filaLagar, LinkedBlockingQueue<String> filaMensagens) {
         this.filaLagar = filaLagar;
         this.filaMensagens = filaMensagens;
     }
@@ -17,24 +18,24 @@ public class Lagar implements Runnable {
     @Override
     public void run() {
         inicio = Instant.now();
-        Map entrega;
+        Caminhão entrega;
         String mensagem;
 
         try {
             while(true) {
                 entrega = filaLagar.take();
                 mensagem = 
-                    entrega.get("plantacao") + " - " +
-                    entrega.get("variedade") + " - " +
-                    entrega.get("carregamento") + " - " +
+                    entrega.getPlantacao() + " - " +
+                    entrega.getVariedade() + " - " +
+                    entrega.getTempoCarregamento() + " - " +
                     filaLagar.size();
                 System.out.println(mensagem);
                 
-                Thread.sleep(Integer.parseInt(entrega.get("carregamento").toString())*1000);
+                Thread.sleep(entrega.getTempoCarregamento()*1000);
 
                 filaMensagens.put(mensagem);
 
-                if(Instant.now().isAfter(inicio.plus(2, ChronoUnit.MINUTES)) && filaLagar.size() == 0) {
+                if(Instant.now().isAfter(inicio.plus(1, ChronoUnit.MINUTES)) && filaLagar.size() == 0) {
                     System.out.println(Thread.currentThread().getName() + " encerrou. <<<<<");
                     filaMensagens.put("");
                     return;

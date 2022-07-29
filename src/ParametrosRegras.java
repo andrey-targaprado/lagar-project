@@ -48,10 +48,4 @@ public abstract class ParametrosRegras {
         System.out.println(quantidadePlantacoes);
         return quantidadePlantacoes;
     }
-
-    public static void main(String[] args) throws Exception {
-        quantidadePlantacoes();
-
-                  
-    }
 }
