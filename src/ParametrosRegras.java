@@ -47,11 +47,10 @@ public class ParametrosRegras {
         quantidadePlantacoes.replace("Cordovil", quantidade.get(1));
         quantidadePlantacoes.replace("Picual", quantidade.get(2));
 
-        System.out.println(quantidadePlantacoes);
         return quantidadePlantacoes;
     }
 
-    public static Map<String, Integer> distanciaPlantacoes(){
+    public static Map<String, Integer> duracaoEntrega(){
 
         Map<String, Integer> distanciaPlantacoes = new HashMap<>() {{
             put("Galega", 0);
@@ -73,7 +72,6 @@ public class ParametrosRegras {
         distanciaPlantacoes.replace("Cordovil", distancia.get(1));
         distanciaPlantacoes.replace("Picual", distancia.get(2));
 
-        System.out.println(distanciaPlantacoes);
         return distanciaPlantacoes;
     }
 
@@ -93,7 +91,6 @@ public class ParametrosRegras {
         int mes = dataArray.get(1);
         int ano = dataArray.get(2);
         LocalDate data = LocalDate.of(ano, mes, dia);
-        System.out.println(data);
        
         return data;
     }
@@ -103,12 +100,4 @@ public class ParametrosRegras {
     public static Map<String, Integer> duracaoCarregamento(){ return null; }
     public static Map<String, Integer> duracaoRecepcao(){ return null; }
 
-    public static void main(String[] args) throws Exception {
-        //quantidadePlantacoes();
-        System.out.println(quantidadePlantacoes().get("Cordovil").getClass());
-        
-        dataRegras();
-
-       
-    }
 }

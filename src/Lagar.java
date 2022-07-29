@@ -1,7 +1,5 @@
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.Map;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -46,5 +44,4 @@ public class Lagar implements Runnable {
             Thread.currentThread().interrupt();
         }
     }
-    
 }

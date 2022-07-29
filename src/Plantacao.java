@@ -1,10 +1,6 @@
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.util.Map;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.DelayQueue;
-import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.TimeUnit;
 
 public class Plantacao implements Runnable {
     private DelayQueue<Caminhão> fila;
@@ -39,5 +35,4 @@ public class Plantacao implements Runnable {
             Thread.currentThread().interrupt();
         }
     }
-
 }

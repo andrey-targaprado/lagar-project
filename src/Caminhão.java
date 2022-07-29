@@ -14,21 +14,17 @@ public class Caminhão implements Delayed {
         instanteInicial = System.currentTimeMillis() + atrasoMilis;
     }
 
-
     public String getVariedade() {
         return variedade;
     }
-
 
     public String getPlantacao() {
         return plantacao;
     }
 
-
     public long getTempoCarregamento() {
         return tempoCarregamento;
     }
-
 
     @Override
     public long getDelay(TimeUnit unit) {
