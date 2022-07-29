@@ -2,7 +2,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.DelayQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class App {
@@ -12,7 +12,7 @@ public class App {
         regras.put("mes", "02");
         regras.put("dia", "24");
 
-        BlockingQueue<Map<String, String>> filaLagar = new LinkedBlockingQueue<>(12);
+        DelayQueue<Caminhão> filaLagar = new DelayQueue<>();
         LinkedBlockingQueue<String> filaMensagens = new LinkedBlockingQueue<>();
         
         Path pathRelatorio = Paths.get("arquivos/relatorio-" + regras.get("ano") + ".txt");
