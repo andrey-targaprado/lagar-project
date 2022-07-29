@@ -1,7 +1,8 @@
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.time.Instant;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Relatorio implements Runnable {
@@ -35,7 +36,10 @@ public class Relatorio implements Runnable {
                     return;
                 }
                 
-                mensagem =  "\n" + Instant.now() + mensagem;
+                mensagem = "\n"
+                        + LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss")) + " - "
+                        + " >> " + mensagem;
+
                 Files.write(pathRelatorio, mensagem.getBytes(), StandardOpenOption.APPEND);
             }
 

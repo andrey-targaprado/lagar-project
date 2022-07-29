@@ -5,9 +5,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 public class Lagar implements Runnable {
-    BlockingQueue<Map<String, String>> filaLagar;
-    LinkedBlockingQueue<String> filaMensagens;
-    Instant inicio;
+    private BlockingQueue<Map<String, String>> filaLagar;
+    private LinkedBlockingQueue<String> filaMensagens;
+    private Instant inicio;
 
     public Lagar(BlockingQueue<Map<String, String>> filaLagar, LinkedBlockingQueue<String> filaMensagens) {
         this.filaLagar = filaLagar;
@@ -34,7 +34,7 @@ public class Lagar implements Runnable {
 
                 filaMensagens.put(mensagem);
 
-                if(Instant.now().isAfter(inicio.plus(2, ChronoUnit.MINUTES)) && filaLagar.size() == 0) {
+                if(Instant.now().isAfter(inicio.plus(1, ChronoUnit.MINUTES)) && filaLagar.size() == 0) {
                     System.out.println(Thread.currentThread().getName() + " encerrou. <<<<<");
                     filaMensagens.put("");
                     return;

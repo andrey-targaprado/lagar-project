@@ -30,7 +30,7 @@ public class Plantacao implements Runnable {
                         "carregamento", String.valueOf(tempoCarregamento),
                         "plantacao", Thread.currentThread().getName()));
                 
-                if(Instant.now().isAfter(inicio.plus(2, ChronoUnit.MINUTES))) {
+                if(Instant.now().isAfter(inicio.plus(1, ChronoUnit.MINUTES))) {
                     System.out.println(Thread.currentThread().getName() + " encerrou. <<<<<");
                     return;
                 }
