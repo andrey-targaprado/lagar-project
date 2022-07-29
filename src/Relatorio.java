@@ -31,9 +31,10 @@ public class Relatorio implements Runnable {
                 mensagem = filaMensagens.take();
                 if(mensagem.equals("")) {
                     contadorEncerramentos++;
-                }
-                if(contadorEncerramentos == 3) {
-                    return;
+                    if (contadorEncerramentos == 3) {
+                        return;
+                    }
+                    continue;
                 }
                 
                 mensagem = "\n"

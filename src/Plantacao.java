@@ -2,14 +2,17 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.DelayQueue;
+import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
 
 public class Plantacao implements Runnable {
-    private BlockingQueue<Map<String, String>> fila;
+    private DelayQueue<Caminhão> fila;
     private String variedade;
-    private int tempoEntrega;
+    private long tempoEntrega;
     private Instant inicio;
 
-    public Plantacao(BlockingQueue<Map<String, String>> fila, String variedade, int tempoEntrega) {
+    public Plantacao(DelayQueue<Caminhão> fila, String variedade, long tempoEntrega) {
         this.fila = fila;
         this.variedade = variedade;
         this.tempoEntrega = tempoEntrega;
@@ -21,14 +24,10 @@ public class Plantacao implements Runnable {
         long tempoCarregamento = 0;
         try {
             while (true) {
-                // Carrega um caminhão entre 2 e 8 segundos
-                tempoCarregamento = (long) (Math.random() * (8 - 2) + 2);
+                tempoCarregamento = Randomico.obterRandomico(2, 8);
                 Thread.sleep(tempoCarregamento * 1000);
 
-                // Considerar o tempo de deslocamento até o lagar (fila)
-                fila.put(Map.of("variedade", variedade,
-                        "carregamento", String.valueOf(tempoCarregamento),
-                        "plantacao", Thread.currentThread().getName()));
+                fila.put(new Caminhão(variedade, Thread.currentThread().getName(), tempoCarregamento, tempoEntrega*1000));
                 
                 if(Instant.now().isAfter(inicio.plus(1, ChronoUnit.MINUTES))) {
                     System.out.println(Thread.currentThread().getName() + " encerrou. <<<<<");
